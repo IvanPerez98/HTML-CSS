@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid rgb(238, 10, 10);
+}
+
+
+tbody tr td:first-child {
+  background-color: rgb(147, 15, 235);
+}
+
+
+tbody tr:nth-child(3) th:nth-child(2) {
+  background-color: rgb(0, 193, 252);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(247, 8, 235);
+}
+
+a:visited {
+  color: rgb(165, 32, 32);
+}
+
+tr th:last-child:hover,
+tr td:last-child:hover {
+  font-size: 2em;
+}
+
+
+thead tr th::first-letter {
+  font-size: 10em;
+}
+
+
+input:required {
+  border: 1px solid rgb(235, 193, 8);
+  padding: 2px;
+}
+
+label::after {
+  color: rgb(11, 136, 7);
+  content: "$";
+}
